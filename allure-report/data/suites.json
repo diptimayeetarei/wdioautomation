@@ -1,0 +1,94 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Title Validation",
+    "children" : [ {
+      "name" : "Open url and assert the title",
+      "uid" : "b2b88f6a97e7d61a",
+      "parentUid" : "b84266deac3f3578868f8b06bd362ff6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1647967621711,
+        "stop" : 1647967641010,
+        "duration" : 19299
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Open About page and assert the Url",
+      "uid" : "52e9bf7dcadc5e88",
+      "parentUid" : "b84266deac3f3578868f8b06bd362ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647967641011,
+        "stop" : 1647967649923,
+        "duration" : 8912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "click get-started buttion and valiade the url contains get-started text",
+      "uid" : "7de3c7c546f49a52",
+      "parentUid" : "b84266deac3f3578868f8b06bd362ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647967649924,
+        "stop" : 1647967654951,
+        "duration" : 5027
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "click logo buttion and valiade the  home page url which does not contain get-started text",
+      "uid" : "c869ac6a596dfd9f",
+      "parentUid" : "b84266deac3f3578868f8b06bd362ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647967654951,
+        "stop" : 1647967664565,
+        "duration" : 9614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "find element and assert the get text ",
+      "uid" : "e72ffa9b330a144f",
+      "parentUid" : "b84266deac3f3578868f8b06bd362ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647967664565,
+        "stop" : 1647967668763,
+        "duration" : 4198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    } ],
+    "uid" : "b84266deac3f3578868f8b06bd362ff6"
+  } ]
+}

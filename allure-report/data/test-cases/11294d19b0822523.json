@@ -1,0 +1,160 @@
+{
+  "uid" : "11294d19b0822523",
+  "name" : "Open About page and assert the Url",
+  "fullName" : "Title Validation.Open About page and assert the Url",
+  "historyId" : "7be2c41d9338f84ccb522541d4fdf09d",
+  "time" : {
+    "start" : 1647965206364,
+    "stop" : 1647965214847,
+    "duration" : 8483
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1647965206365,
+        "stop" : 1647965208735,
+        "duration" : 2370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e82ff6ba1a14b374",
+        "name" : "Request",
+        "source" : "e82ff6ba1a14b374.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1647965208736,
+        "stop" : 1647965208873,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a75ebab0e2ea98d",
+        "name" : "Request",
+        "source" : "8a75ebab0e2ea98d.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "94135102d5dfbe4",
+        "name" : "Response",
+        "source" : "94135102d5dfbe4.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1647965208876,
+        "stop" : 1647965214817,
+        "duration" : 5941
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "45ecd2f97c363bb4",
+        "name" : "Request",
+        "source" : "45ecd2f97c363bb4.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1647965214821,
+        "stop" : 1647965214842,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb8bbf32add94a3f",
+        "name" : "Response",
+        "source" : "eb8bbf32add94a3f.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Title Validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Title Validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open About page and assert the Url"
+  }, {
+    "name" : "package",
+    "value" : "Title Validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.74"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11294d19b0822523.json",
+  "parameterValues" : [ "chrome-99.0.4844.74" ]
+}

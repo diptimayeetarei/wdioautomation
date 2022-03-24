@@ -1,0 +1,166 @@
+{
+  "uid" : "2c4385e32e3c2329",
+  "name" : "find element and assert the get text ",
+  "fullName" : "Title Validation.find element and assert the get text ",
+  "historyId" : "687d1fefa6503e1183ca7827b550787d",
+  "time" : {
+    "start" : 1647967092135,
+    "stop" : 1647967094635,
+    "duration" : 2500
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1647967092136,
+        "stop" : 1647967094446,
+        "duration" : 2310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7795025ad79f41de",
+        "name" : "Request",
+        "source" : "7795025ad79f41de.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1647967094447,
+        "stop" : 1647967094566,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "423c46aaa64899c3",
+        "name" : "Request",
+        "source" : "423c46aaa64899c3.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "176cbc8de7f2bb9f",
+        "name" : "Response",
+        "source" : "176cbc8de7f2bb9f.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647967094568,
+        "stop" : 1647967094593,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0442ca016b8214b",
+        "name" : "Request",
+        "source" : "f0442ca016b8214b.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "2eb9f46451ecad95",
+        "name" : "Response",
+        "source" : "2eb9f46451ecad95.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/2bbc6fbb-2c09-467f-8e4b-fa5385fd42ee/text",
+      "time" : {
+        "start" : 1647967094604,
+        "stop" : 1647967094630,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a238dc91da3b0d3b",
+        "name" : "Response",
+        "source" : "a238dc91da3b0d3b.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Title Validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Title Validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "find element and assert the get text "
+  }, {
+    "name" : "package",
+    "value" : "Title Validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.74"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c4385e32e3c2329.json",
+  "parameterValues" : [ "chrome-99.0.4844.74" ]
+}

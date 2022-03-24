@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 22 08:47:21 GMT-08:00 2022","Tue Mar 22 08:47:29 GMT-08:00 2022","8912","","Title Validation","","Title Validation","Open About page and assert the Url","Open About page and assert the Url",""
+"passed","Tue Mar 22 08:47:44 GMT-08:00 2022","Tue Mar 22 08:47:48 GMT-08:00 2022","4198","","Title Validation","","Title Validation","find element and assert the get text ","find element and assert the get text ",""
+"passed","Tue Mar 22 08:47:34 GMT-08:00 2022","Tue Mar 22 08:47:44 GMT-08:00 2022","9614","","Title Validation","","Title Validation","click logo buttion and valiade the  home page url which does not contain get-started text","click logo buttion and valiade the  home page url which does not contain get-started text",""
+"passed","Tue Mar 22 08:47:29 GMT-08:00 2022","Tue Mar 22 08:47:34 GMT-08:00 2022","5027","","Title Validation","","Title Validation","click get-started buttion and valiade the url contains get-started text","click get-started buttion and valiade the url contains get-started text",""
+"failed","Tue Mar 22 08:47:01 GMT-08:00 2022","Tue Mar 22 08:47:21 GMT-08:00 2022","19299","","Title Validation","","Title Validation","Open url and assert the title","Open url and assert the title","Login"

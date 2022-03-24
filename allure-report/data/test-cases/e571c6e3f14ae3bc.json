@@ -1,0 +1,142 @@
+{
+  "uid" : "e571c6e3f14ae3bc",
+  "name" : "Open url and assert the title",
+  "fullName" : "Title Validation.Open url and assert the title",
+  "historyId" : "9581841fdb3c160e37763f5837ea08dc",
+  "time" : {
+    "start" : 1647966609242,
+    "stop" : 1647966618383,
+    "duration" : 9141
+  },
+  "description" : "Login",
+  "descriptionHtml" : "<p>Login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1647966609250,
+        "stop" : 1647966618120,
+        "duration" : 8870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f4e88a0a40a5a27",
+        "name" : "Request",
+        "source" : "7f4e88a0a40a5a27.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1647966618123,
+        "stop" : 1647966618353,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "566ed3eb961d44b0",
+        "name" : "Request",
+        "source" : "566ed3eb961d44b0.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "b98ac9ab148485cb",
+        "name" : "Response",
+        "source" : "b98ac9ab148485cb.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1647966618361,
+        "stop" : 1647966618376,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d9c0dfbabf89928",
+        "name" : "Response",
+        "source" : "5d9c0dfbabf89928.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Title Validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Title Validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open url and assert the title"
+  }, {
+    "name" : "package",
+    "value" : "Title Validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.74"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e571c6e3f14ae3bc.json",
+  "parameterValues" : [ "chrome-99.0.4844.74" ]
+}

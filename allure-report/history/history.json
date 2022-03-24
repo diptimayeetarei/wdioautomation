@@ -1,0 +1,98 @@
+{
+  "9581841fdb3c160e37763f5837ea08dc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2b88f6a97e7d61a",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Practice E-Commerce Site –  Bro\"\n                Received: \"Practice E-Commerce Site – Automation Bro\"",
+      "time" : {
+        "start" : 1647967621711,
+        "stop" : 1647967641010,
+        "duration" : 19299
+      }
+    } ]
+  },
+  "d26533969244d022c2b0ff462536d8e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c869ac6a596dfd9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647967654951,
+        "stop" : 1647967664565,
+        "duration" : 9614
+      }
+    } ]
+  },
+  "687d1fefa6503e1183ca7827b550787d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e72ffa9b330a144f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647967664565,
+        "stop" : 1647967668763,
+        "duration" : 4198
+      }
+    } ]
+  },
+  "42b69db1555b48aba08d70055bfebb6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7de3c7c546f49a52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647967649924,
+        "stop" : 1647967654951,
+        "duration" : 5027
+      }
+    } ]
+  },
+  "7be2c41d9338f84ccb522541d4fdf09d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52e9bf7dcadc5e88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647967641011,
+        "stop" : 1647967649923,
+        "duration" : 8912
+      }
+    } ]
+  }
+}

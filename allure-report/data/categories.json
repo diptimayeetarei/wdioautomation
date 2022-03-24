@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect window to have title\n                \n                Expected: \"Practice E-Commerce Site –  Bro\"\n                Received: \"Practice E-Commerce Site – Automation Bro\"",
+      "children" : [ {
+        "name" : "Open url and assert the title",
+        "uid" : "b2b88f6a97e7d61a",
+        "parentUid" : "4563ed8fa0d419372b3dc9f82274f982",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647967621711,
+          "stop" : 1647967641010,
+          "duration" : 19299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-99.0.4844.74" ]
+      } ],
+      "uid" : "4563ed8fa0d419372b3dc9f82274f982"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,51 @@
+[ {
+  "uid" : "52e9bf7dcadc5e88",
+  "name" : "Open About page and assert the Url",
+  "time" : {
+    "start" : 1647967641011,
+    "stop" : 1647967649923,
+    "duration" : 8912
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e72ffa9b330a144f",
+  "name" : "find element and assert the get text ",
+  "time" : {
+    "start" : 1647967664565,
+    "stop" : 1647967668763,
+    "duration" : 4198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c869ac6a596dfd9f",
+  "name" : "click logo buttion and valiade the  home page url which does not contain get-started text",
+  "time" : {
+    "start" : 1647967654951,
+    "stop" : 1647967664565,
+    "duration" : 9614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7de3c7c546f49a52",
+  "name" : "click get-started buttion and valiade the url contains get-started text",
+  "time" : {
+    "start" : 1647967649924,
+    "stop" : 1647967654951,
+    "duration" : 5027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2b88f6a97e7d61a",
+  "name" : "Open url and assert the title",
+  "time" : {
+    "start" : 1647967621711,
+    "stop" : 1647967641010,
+    "duration" : 19299
+  },
+  "status" : "failed",
+  "severity" : "critical"
+} ]
